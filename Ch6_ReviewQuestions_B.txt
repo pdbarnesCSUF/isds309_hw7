@@ -1,87 +1,12 @@
- 12
-----
-Which of the following doubles every value in a 10-element integer array named amount?
+Patrick Barnes
+ch 6 B
 
-a.  for(int x = 9; x >= 0; --x) amount[x] *= 2;
-b.  foreach(int number in amount) number *= 2;
-c.  both of these
-d.  neither of these
-
- 13
-----
-Which of the following adds 10 to every value in a 16-element integer array named points?
-
-a.   for(int sub = 0; sub > 16; ++sub) points[sub] += 10;
-b.   foreach(int sub in points) points += 10;
-c.   both of these
-d.   neither of these
-
- 14
-----
-Two arrays that store related information in corresponding element positions are arrays.
-
-a.   jagged
-b.   parallel
-c.   relative
-d.   rectangular
-
- 15
-----
-Assume an array is defined as int[] nums = {2, 3, 4, 5};. Which of the following would display the values in the array in reverse?
-
-a.  for(int x = 4; x > 0; --x)
-      Write(nums[x]);
-
-b.  for(int x = 3; x >= 0; --x)
-      Write(nums[x]);
-
-c.  for(int x = 3; x > 0; --x)
-      Write(nums[x]);
-
-d.  for(int x = 4; x >= 0; --x)
-      Write(nums[x]);
-
- 16
-----
-Assume an array is defined as int[] nums = {7, 15, 23, 5};. Which of the following would place the values in the array in descending numeric order?
-
-a.  Array.Sort(nums);
-b.  Array.Reverse(nums);
-c.  Array.Sort(nums); Array.Reverse(nums);
-d.  Array.Reverse(nums); Array.Sort(nums);
-
- 17
-----
-Which of the following traits do the BinarySearch() and Sort() methods have in common?
-
-a.  Both methods take a single argument that must be an array.
-b.  They both operate only arrays made up of numeric data.
-c.  The array that each method uses must start in ascending order.
-d.  Both methods belong to the System.Array class.
-
- 18
-----
-If you use the BinarySearch() method, and the object you seek is not found in the array, .
-
-a.  an error message is displayed
-b.  a zero is returned
-c.  the value false is returned
-d.  a negative value is returned
-
- 19
-----
-The BinarySearch() method is inadequate when .
-
-a.  array items are in ascending order
-b.  the array holds duplicate values and you want to find them all
-c.  you want to find an exact match for a value
-d.  array items are not numeric
-
- 20
-----
-Which of the following declares an integer array that contains eight rows and five columns?
-
-a.  int[8, 5] num = new int[,];
-b.  int[8][5] num = new int[];
-c.  int[,] num = new int[5, 8];
-d.  int[,] num = new int[8, 5];
+12. a
+13. d
+14. b
+15. b
+16. c
+17. d
+18. d
+19. b
+20. c
